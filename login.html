@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <!-- adding css file -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- main section -->
+    <main id="main">
+      <!-- transparent div  -->
+      <div class="transparent-div">
+        <!-- form -->
+        <form>
+          <!-- form title -->
+          <h2>Login</h2>
+
+          <input type="text" class="username" placeholder="Username" />
+          <br />
+          <input type="password" class="password" placeholder="Password" />
+          <br />
+          <div class="remember-forgot">
+            <div>
+              <input type="checkbox" name="remember-me" id="remember-me" />
+              <label for="remember-me">Remember Me</label>
+            </div>
+            <span>Forgot Password</span>
+          </div>
+          <input type="button" onclick="changeBgImage()" class="login-btn" value="Login" />
+          <h4 class="register-title">
+            Dont Have a Account?
+            <a href="./register.html" class="register-link">Register</a>
+          </h4>
+        </form>
+      </div>
+    </main>
+
+    <!-- js file including -->
+    <script src="./main.js"></script>
+  </body>
+</html>

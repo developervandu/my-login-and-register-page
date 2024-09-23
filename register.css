@@ -1,0 +1,89 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    height: 100vh;
+    background-image: url('./assets/resister.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.transparent-div {
+    height: 500px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+
+form h2{
+    color: white;
+}
+form input {
+    width: 280px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+
+}
+form ::placeholder {
+    color: white;
+    font-weight: 540;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+form h4, a{
+    color: white;
+    text-decoration: none;
+}
+.gender-div {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    justify-content: space-between;
+    padding:2.5px 10px;
+}
+/* input[type='radio']{
+    height: 15px;
+    width: 15px;
+} */
+
+.gender-div label{
+    color: white;
+    font-weight: 500;
+    
+}
+#gender{
+    width: 25px;
+    margin: 10px 0px;
+
+}
+form button {
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    /* margin: 15px 0px; */
+    border: none;
+}
+
+#female-img, #male-img{
+    display: none;
+}
